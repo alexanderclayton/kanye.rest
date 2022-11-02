@@ -1,4 +1,3 @@
-var header = document.getElementById("header-prompt");
 var button = document.getElementById("kanye-btn");
 var image = document.getElementById("kanye-img");
 var quote = document.getElementById("kanye-quote");
