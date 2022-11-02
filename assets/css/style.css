@@ -53,5 +53,10 @@ button:hover {
 
     #kanye-quote {
         font-size: 3vw;
+        grid-column-end: 4;
+    }
+
+    #kanye-img {
+        grid-column-start: 3;
     }
 }
