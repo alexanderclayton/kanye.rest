@@ -1,0 +1,57 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    width: 35%;
+    line-height: 3rem;
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#kanye-blessing {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+#kanye-img {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+}
+
+#kanye-quote {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 4vw;
+}
+
+@media screen and (min-width: 900px) {
+    h1 {
+        font-size: 4vw;
+    }
+
+    button {
+        font-size: 2vw;
+    }
+
+    #kanye-quote {
+        font-size: 3vw;
+    }
+}
